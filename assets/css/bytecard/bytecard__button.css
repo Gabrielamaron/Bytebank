@@ -1,0 +1,15 @@
+.bytecard__button {
+    background: #204ac8;
+    color: #ffffff;
+    width: 10em;
+    height: 3em;
+    border-color: #204ac8;
+    border-radius: 0.275em;
+    box-shadow: 0.1em 0.2em 0.2em #204ac8;
+}
+.bytecard__button:hover {
+    background: #ffffff ;
+    color: #204ac8;
+    text-decoration: underline;
+    cursor: pointer;
+}

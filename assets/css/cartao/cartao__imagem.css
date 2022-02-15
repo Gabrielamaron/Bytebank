@@ -1,0 +1,9 @@
+.cartao__imagem {
+    border-color: #204ac8;
+    border-width: 0.35em;
+    border-style: solid;
+    height: 18em;
+    margin: auto;
+    position: relative;
+    width: calc(1.7*height);
+}

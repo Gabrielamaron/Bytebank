@@ -1,0 +1,7 @@
+.menu {
+    display: inline-flex;
+    position: absolute;
+    left: 78%;
+    top:36%;
+    margin: auto 0;
+}

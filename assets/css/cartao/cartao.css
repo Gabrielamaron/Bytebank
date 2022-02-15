@@ -1,0 +1,15 @@
+.cartao {
+    align-content: center;
+    border-radius: 2em;
+    display: flex;
+    flex-direction: column;
+    height: calc(100%-7em);
+    margin: 1.5em 1.5em 0 0;
+    padding: 2em;
+    position: relative;
+    transition-duration: 675ms;
+    width: 50%;
+}
+.cartao:hover{
+    background: #ffffff;
+}

@@ -1,0 +1,12 @@
+.cabecalho {
+    display: flex;
+    height: 6em;
+    position: relative;
+    margin: 0 auto;
+    padding: 1.25rem;
+    transition-duration: 675ms;
+    
+}
+.cabecalho:hover{
+    background: #353839;
+}

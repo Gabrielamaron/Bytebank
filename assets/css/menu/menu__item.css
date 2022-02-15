@@ -1,0 +1,10 @@
+.menu__item {
+    margin: 0 0.565em;
+    color: #ffffff;
+    text-decoration: none;
+    transition-duration: 675ms;
+}
+.menu__item:hover{
+    color: #204ac8;
+    text-decoration: underline;
+}

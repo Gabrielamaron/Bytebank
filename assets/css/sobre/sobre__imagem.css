@@ -1,0 +1,5 @@
+.sobre__imagem {
+    background: url('../../img/sobre.png') no-repeat center / cover;
+    margin: 2em 1.75em;
+    width: 50%;
+}
