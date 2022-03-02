@@ -1,0 +1,9 @@
+.formulario__grupo {
+  border-style: none;
+  display: flex;
+  flex-direction: row;
+  margin: 0 0 2em -0.725em;
+}
+.formulario__grupo .formulario__campo {
+  margin-right: 2em;
+}

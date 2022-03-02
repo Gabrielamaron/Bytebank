@@ -1,0 +1,6 @@
+.formulario__campo--mensagemErro {
+  color: #ff0000;
+  display: block;
+  margin-top: 0.8em;
+  padding: 0.4em;
+}

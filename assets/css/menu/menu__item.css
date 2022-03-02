@@ -1,6 +1,6 @@
 .menu__item {
-    margin: 0 0.565em;
     color: #ffffff;
+    margin: 0 0.565em;
     text-decoration: none;
     transition-duration: 675ms;
 }

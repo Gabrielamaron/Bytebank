@@ -1,0 +1,13 @@
+.formulario__campo--invalido {
+  border: 0.065em solid #ff0000;
+  border-radius: 0.565em;
+  margin-bottom: 0.5rem;
+}
+.formulario__campo--invalido .formulario__input {
+  border: 1px solid #ff0000;
+  border-radius: 7px;
+  color: #ff0000;
+}
+.formulario__campo--invalido .etiqueta {
+  color: #ff0000;
+}

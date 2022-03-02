@@ -1,0 +1,12 @@
+.formulario__enviar {
+  font-weight: bold;
+  padding: 0.8em;
+  transition-duration: 675ms;
+  width: min-content;
+}
+.formulario__enviar:hover {
+  background-color: #204ac8;
+  color: #fdfdfd;
+  cursor: pointer;
+  text-decoration: underline;
+}

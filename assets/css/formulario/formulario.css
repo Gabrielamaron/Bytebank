@@ -1,0 +1,8 @@
+.formulario {
+  border: 0.265em solid #ffff00;
+  border-radius: 0.565em;
+  display: flex;
+  flex-direction: column;
+  margin: 5.625em 4em;
+  padding: 2em;
+}
