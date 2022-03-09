@@ -1,0 +1,5 @@
+.cabecalho-dashboard__logo {
+    display: inline-flex;
+    width:calc(3.94*height);
+    height: 2.75em;
+}

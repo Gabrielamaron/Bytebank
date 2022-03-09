@@ -1,0 +1,11 @@
+.saldo {
+  align-items: center;
+  background-color: var(--azul-background);
+  border: var(--borda-largura-caixa) solid var(--azul);
+  border-radius: var(--borda-raio-caixa);
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 0.5em;
+  padding: var(--padding-caixa);
+  width: 11.465em;
+}

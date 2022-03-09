@@ -1,0 +1,9 @@
+@media screen and (min-width: 1024px) {
+  .transferencia__inputs {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    width: 100%;
+  }
+}
+

@@ -1,0 +1,17 @@
+.cabecalho-dashboard {
+    align-items: center;
+    background-color: #6495ED;
+    display: flex;
+    flex-wrap: wrap;
+    height: 6em;
+    justify-content: center;
+    padding: 1.25rem;
+    transition-duration: 675ms;
+    
+}
+
+@media screen and (min-width:1024px) {
+    .cabecalho-dashboard {
+        justify-content: flex-start;
+    }
+}

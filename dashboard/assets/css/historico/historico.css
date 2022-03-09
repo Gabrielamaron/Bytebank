@@ -1,0 +1,10 @@
+.historico {
+  align-items: center;
+  border: var(--borda-largura-caixa) solid var(--azul);
+  border-radius: var(--borda-raio-caixa);
+  display: flex;
+  flex-direction: column;
+  height: 9.465em;
+  margin-bottom: 0.675em;
+  padding: var(--padding-caixa);
+}

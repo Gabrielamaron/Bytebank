@@ -1,0 +1,10 @@
+.selecionar-usuario {
+  border: var(--borda-largura-caixa) solid var(--azul);
+  border-radius: var(--borda-raio-caixa);
+  display: flex;
+  flex-direction: column;
+  height: 12.325em;
+  justify-content: space-around;
+  margin-bottom: 0.675em;
+  padding: var(--padding-caixa);
+}

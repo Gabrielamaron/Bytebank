@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dashboard - ByteBank</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap"
+      rel="stylesheet"
+    />
+    <link href="assets/css/reset.css" rel="stylesheet" />
+    <link href="assets/css/base-dashboard.css" rel="stylesheet" />
+    <link href="assets/css/variaveis.css" rel="stylesheet" />
+    <link
+      href="assets/css/cabecalho/cabecalho-dashboard.css"
+      rel="stylesheet"
+    />
+    <link
+      href="assets/css/cabecalho/cabecalho-dashboard__logo.css"
+      rel="stylesheet"
+    />
+    <link
+      href="assets/css/container/container-principal.css"
+      rel="stylesheet"
+    />
+    <link
+      href="assets/css/container/container-secundario.css"
+      rel="stylesheet"
+    />
+    <link href="assets/css/chamada/chamada__titulo.css" rel="stylesheet" />
+    <link href="assets/css/saldo/saldo.css" rel="stylesheet" />
+    <link href="assets/css/saldo/saldoUsuario.css" rel="stylesheet" />
+    <link href="assets/css/saldo/saldo__numero.css" rel="stylesheet" />
+    <link href="assets/css/foco/foco-dashboard.css" rel="stylesheet" />
+    <link
+      href="assets/css/selecionar-usuario/selecionar-usuario.css"
+      rel="stylesheet"
+    />
+    <link
+      href="assets/css/selecionar-usuario/selecionar-usuario__container.css"
+      rel="stylesheet"
+    />
+    <link
+      href="assets/css/selecionar-usuario/selecionar-usuario__titulo.css"
+      rel="stylesheet"
+    />
+    <link
+      href="assets/css/selecionar-usuario/selecionar-usuario__etiqueta.css"
+      rel="stylesheet"
+    />
+    <link href="assets/css/transferencia/transferencia.css" rel="stylesheet" />
+    <link
+      href="assets/css/transferencia/transferencia__container.css"
+      rel="stylesheet"
+    />
+    <link
+      href="assets/css/transferencia/transferencia__titulo.css"
+      rel="stylesheet"
+    />
+    <link
+      href="assets/css/transferencia/transferencia__etiqueta.css"
+      rel="stylesheet"
+    />
+    <link
+      href="assets/css/transferencia/transferencia__inputs.css"
+      rel="stylesheet"
+    />
+    <link
+      href="assets/css/transferencia/transferencia__valor.css"
+      rel="stylesheet"
+    />
+    <link
+      href="assets/css/transferencia/transferencia__usuario.css"
+      rel="stylesheet"
+    />
+    <link
+      href="assets/css/transferencia/transferencia__botao.css"
+      rel="stylesheet"
+    />
+    <link
+      href="assets/css/transferencia/transferencia__mensagem-erro.css"
+      rel="stylesheet"
+    />
+    <link href="assets/css/historico/historico.css" rel="stylesheet" />
+    <link href="assets/css/historico/historico__titulo.css" rel="stylesheet" />
+    <link
+      href="assets/css/historico/historico__container.css"
+      rel="stylesheet"
+    />
+    <link
+      href="assets/css/historico/historico__lista.css"
+      rel="stylesheet"
+    />
+    <link
+      href="assets/css/historico/historico__lista--fraco.css"
+      rel="stylesheet"
+    />
+    <link href="assets/css/rodape/rodape.css" rel="stylesheet" />
+    <link href="assets/css/rodape/rodape__menu.css" rel="stylesheet" />
+    <link href="assets/css/rodape/rodape__nav.css" rel="stylesheet" />
+    <link href="assets/css/rodape/rodape__copyright.css" rel="stylesheet" />
+  </head>
+  <body>
+    <header class="cabecalho-dashboard">
+      <img
+        class="cabecalho-dashboard__logo"
+        alt="Logo ByteBank"
+        src="assets/img/Logo.png"
+      />
+    </header>
+    <main class="container-principal">
+      <div class="container-secundario">
+        <section class="chamada">
+          <h1 class="chamada__titulo">
+            <strong class="foco-dashboard"><div id="nomeUsuario"></div></strong>
+          </h1>
+        </section>
+        <section class="saldo">
+          <img
+            alt="ícone de dinheiro"
+            src="https://img.icons8.com/material-sharp/24/000000/money.png"
+          />
+          <p class="saldo__numero"></p>
+          <div id="saldoUsuario"></div>
+        </section>
+        <section class="selecionar-usuario">
+          <div class="selecionar-usuario__container">
+            <img
+              src="https://img.icons8.com/ios-filled/50/000000/i-pronoun.png"
+            />
+            <h1 class="selecionar-usuario__titulo">Selecione o usuário</h1>
+          </div>
+          <div>
+            <input
+              id="gabrielamaron"
+              type="radio"
+              name="usuario"
+              checked
+            /><label class="selecionar-usuario__etiqueta" for="usuarioGabriel"
+              >gabrielamaron</label
+            >
+          </div>
+          <div>
+            <input id="anaelamaro" type="radio" name="usuario" /><label
+              class="selecionar-usuario__etiqueta"
+              for="usuarioAna"
+              >anaelamaro</label
+            >
+          </div>
+          <div>
+            <input id="lucia000" type="radio" name="usuario" /><label
+              class="selecionar-usuario__etiqueta"
+              for="usuarioLucia"
+              >lucia000</label
+            >
+          </div>
+          <div>
+            <input id="joaokkk" type="radio" name="usuario" /><label
+              class="selecionar-usuario__etiqueta"
+              for="usuarioJoao"
+              >joaokkk</label
+            >
+          </div>
+          <div>
+            <input id="carlinhoPontes" type="radio" name="usuario" /><label
+              class="selecionar-usuario__etiqueta"
+              for="usuarioCarlos"
+              >carlinhoPontes</label
+            >
+          </div>
+          <div>
+            <input id="robertinha" type="radio" name="usuario" /><label
+              class="selecionar-usuario__etiqueta"
+              for="usuarioRoberta"
+              >robertinha</label
+            >
+          </div>
+        </section>
+      </div>
+      <div class="container-secundario">
+        <section class="transferencia">
+          <div class="transferencia__container">
+            <img
+              src="https://img.icons8.com/ios-glyphs/30/000000/online-money-transfer--v1.png"
+            />
+            <h1 class="transferencia__titulo">Transferência</h1>
+          </div>
+          <label class="transferencia__etiqueta"
+            >Insira o valor da transferência, e o usuário que receberá a
+            transação</label
+          >
+          <form class="transferencia__inputs">
+            <input
+              class="transferencia__valor"
+              id="valorTransferencia"
+              name="valor"
+              placeholder="Valor da Transferência"
+              type="number"
+              required
+            />
+            <input
+              class="transferencia__usuario"
+              id="usuarioTransferencia"
+              name="usuarioReceptor"
+              placeholder="Usuário que vai receber a transferência"
+              required
+            />
+            <input
+              class="transferencia__botao--centralizado"
+              type="reset"
+              name="botaoReset"
+              value="Limpar"
+            />
+          </form>
+          <button class="transferencia__botao" id="botaoTransferencia">
+            Realizar Transferência
+          </button>
+          <span class="transferencia__mensagem-erro" id="mensagemErro"></span>
+        </section>
+        <section class="historico">
+          <div class="historico__container">
+            <img
+              src="https://img.icons8.com/ios-filled/50/000000/payment-history.png"
+            />
+            <h1 class="historico__titulo">Histórico de Transferências</h1>
+          </div>
+          <div>
+            <ul class="historico__lista" id="historico">
+              <li class="historico__lista--fraco">
+                Nenhuma transferência realizada recentemente
+              </li>
+            </ul>
+          </div>
+        </section>
+      </div>
+    </main>
+    <footer class="rodape">
+      <div class="rodape__copyright">
+        <img class="logo" alt="Logo ByteBank" src="assets/img/rodape.png" />
+        <p>©Copyright reservado</p>
+      </div>
+    </footer>
+
+    <script type="module" src="/js/index.js"></script>
+  </body>
+</html>

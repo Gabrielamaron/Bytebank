@@ -1,0 +1,9 @@
+.saldo__numero {
+  font-size: 1.125em;
+}
+.saldo__numero--negativo {
+  color: var(--cor-saldo-negativo);
+}
+.saldo__numero--positivo {
+  color: var(--cor-saldo-positivo);
+}

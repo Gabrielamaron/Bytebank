@@ -1,0 +1,16 @@
+:root {
+  --azul: #204ac8;
+  --azul-background: #6495ED;
+  --azul-invertido: #ffff00;
+  --branco-background: #f8f8ff;
+  --vermelho-aviso: #ff0000;
+  --verde-saldo-positivo: #006400;
+
+  
+
+  --borda-largura-caixa: 0.175em;
+  --borda-raio-caixa: 0.525em;
+  --padding-caixa: 0.75em;
+
+  --fonte-titulo: 1.125em
+}

@@ -1,0 +1,12 @@
+.chamada__titulo {
+  font-size: var(--fonte-titulo);
+}
+
+@media screen and (min-width: 1024px) {
+  .chamada__titulo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 10.75em;
+  }
+}

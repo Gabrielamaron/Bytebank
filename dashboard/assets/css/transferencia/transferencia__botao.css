@@ -1,0 +1,19 @@
+.transferencia__botao {
+  font-size: 0.975em;
+  background-color: var(--azul-background);
+  border-radius: var(--borda-raio-caixa);
+  box-shadow: 0.175em 0.175em 0.2em 0.2em #A9A9A9;
+}
+.transferencia__botao--centralizado {
+  font-size: 0.975em;
+  background-color: var(--azul-background);
+  border-radius: var(--borda-raio-caixa);
+  box-shadow: 0.175em 0.175em 0.2em 0.2em #A9A9A9;
+  margin: 0.25em auto;
+}
+
+@media screen and (min-width: 1024px) {
+  .transferencia__botao:hover {
+    cursor: pointer;
+  }
+}

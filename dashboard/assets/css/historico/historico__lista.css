@@ -1,0 +1,16 @@
+.historico__lista {
+  display: flex;
+  flex-direction: column;
+  height: 5.75em;
+  overflow-y: hidden;
+}
+
+.historico__lista li {
+  list-style-type: none;
+}
+
+@media screen and (min-width: 1024px) {
+  .historico__lista {
+    overflow-y: auto;
+  }
+}

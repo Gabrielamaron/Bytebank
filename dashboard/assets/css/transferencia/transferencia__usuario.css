@@ -1,0 +1,9 @@
+.transferencia__usuario{
+  border-radius: var(--borda-raio-caixa);
+  width: 100%;
+}
+@media screen and (min-width: 1024px) {
+  .transferencia__usuario {
+    width: 51%;
+  }
+}
